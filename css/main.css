@@ -1,44 +1,3 @@
-/*============= ИСПРАВЛЕНИЕ СТИЛЕЙ =============*/
-* {
-    box-sizing: border-box;
-}
-
-html, body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    margin: 0;
-    font-weight: normal;
-}
-
-p {
-    margin: 0;
-}
-
-ul {
-    margin: 0;
-    padding: 0;
-}
-
-ul li {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-}
-
-img {
-    max-width: 100%;
-}
-
-.btn {
-    border: none;
-}
-
 /*============= СТИЛИЗАЦИЯ =============*/
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
@@ -56,7 +15,7 @@ body {
 
 .container {
     margin: 0 auto;
-    max-width: 936px;
+    max-width: 1140px;
 }
 
 .header {
@@ -175,7 +134,7 @@ body {
 .features__title {
     font-size: 36px;
     font-weight: 700;
-    margin-bottom: 25px;
+    margin-bottom: 45px;
 }
 
 .features__item {
@@ -183,12 +142,112 @@ body {
     min-height: 100px;
     background: #fff;
     border-radius: 4px;
+    width: 362px;
+    margin-right: 22px;
+    height: 560px;
+    position: relative;
+}
 
+.features__item:last-child {
+    margin-right: 0;
 }
 
 .features__header {
     min-height: 162px;
-    margin-bottom: 20px;
+    margin-bottom: 28px;
+    overflow: hidden;
+    display: block;
+    position: absolute;
+    width: 362px;
+}
+
+.features__info {
+    padding: 36px 30px;
+    color: #000;
+    margin-top: 240px;
+}
+
+.features__subtitle {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 25px;
+    color: #000;
+}
+
+.features__service-item {
+    display: inline-block;
+    vertical-align: top;
+    width: 130px;
+    margin-right: 3px;
+}
+
+.features__service-item:last-child {
+    margin-right: 0;
+}
+
+.features__service-description {
+    font-size: 16px;
+    color: #666666;
+}
+
+
+.features__btn {
+    padding: 14px 29px;
+    border: 1px solid #f5170e;
+    border-radius: 50px;
+    background: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #f5170e;
+    position: absolute;
+    top: 479px;
+    left: 29px;
+}
+
+.features__btn:hover {
+    background: #f5170e;
+    color: #fff;
+}
+
+.news {
+    margin-bottom: 55px;
+}
+
+.news__item {
+    display: inline-block;
+    position: relative;
+    width: 555px;
+    vertical-align: top;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.news__img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.news__content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 25px 30px;
+    min-height: 140px;
+}
+
+.news__date {
+    font-size: 14px;
+    margin-bottom: 18px;
+
+}
+.news__subtitle {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 5px;
 }
 
 
@@ -203,49 +262,43 @@ body {
 
 
 
-/* СТИЛИЗАЦИЯ С ПРОШЛОГО УРОКА
-.menu__item:first-child {
-    margin-left: 0;
+/*============= ИСПРАВЛЕНИЕ СТИЛЕЙ =============*/
+* {
+    box-sizing: border-box;
 }
 
-.menu__link {
-    color: #fff;
-    font-size: 14px;
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
 }
 
-.menu__link:hover,
-.menu__item_active .menu__link {
-    color: #f5170e;
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: normal;
 }
 
-.social__item {
-    display: inline-block;
-    margin-left: 10px;
+p {
+    margin: 0;
 }
 
-.social__item:first-child {
-    margin-left: 0;
+ul {
+    margin: 0;
+    padding: 0;
 }
 
-.socials__link {
-    background-repeat: no-repeat;
-    background-position: center;
-    display: block;
-    width: 36px;
-    height: 36px;
-    opacity: 0.2;
-    transition: .5s;
+ul li {
+    list-style: none;
 }
 
-.socials__link:hover {
-    opacity: 0.4;
+a {
+    text-decoration: none;
 }
 
-.socials__link_icon_tg {
-    background-image: url(../images/icons/socials/t.png);
+img {
+    max-width: 100%;
 }
 
-.socials__link_icon_vk {
-    background-image: url(../images/icons/socials/vk.png);
+.btn {
+    border: none;
 }
-*/
