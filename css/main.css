@@ -13,6 +13,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.main-page-wrapper {
+    background: url(../images/bg/hero.jpg) center top no-repeat, url("../images/bg/bottom-pic.jpg") right bottom 307px no-repeat;
+}
+
 .container {
     margin: 0 auto;
     max-width: 1140px;
@@ -214,6 +218,11 @@ body {
     margin-bottom: 55px;
 }
 
+.news__title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 45px;
+}
 .news__item {
     display: inline-block;
     position: relative;
@@ -250,16 +259,149 @@ body {
     margin-bottom: 5px;
 }
 
+.pager {
+    text-align: center;
+}
 
+.pager__display {
+    margin-right: 25px;
+}
 
+.pager__item {
+    display: inline-block;
+    vertical-align: middle;
+}
 
+.pager__link {
+    display: block;
+    color: #fff;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 32px;
+}
 
+.pager__item--active .pager__link{
+    background: #fff;
+    color: #f5170e;
+}
 
+.pager__display, .pager__list {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.about {
+    margin-bottom: 75px;
+}
+
+.about:before, .about__desc {
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 10px;
+} 
+
+.about:before {
+    content: "";
+    width: 500px;
+    height: 500px;
+    background: url(../images/decor/gates.jpg) center center / cover no-repeat;
+}
+
+.about__desc {
+    background: url(../images/decor/mountains.jpg) center center / cover no-repeat;
+    padding: 80px 98px;
+    width: 780px;
+    height: 450px;
+    margin-left: -170px;
+    margin-top: 108px;
+}
+
+.about__title {
+    font-size: 36px;
+    color: #000;
+    margin-bottom: 40px;
+}
+
+.about__desc-text {
+    margin-bottom: 45px;
+}
+
+.about__desc-text p {
+    margin-bottom: 20px;
+}
+
+.about__desc-text p:last-child {
+    margin-bottom: 0;
+}
+
+.footer-container {
+    border-top: 1px solid #1a3038;
+}
 
 .footer {
     position: relative;
+    height: 100px;
 }
 
+.contacts__desc {
+    font-size: 11px;
+    color: #9a9a9a;
+}
+
+.socials {
+    position: absolute;
+    top: 20px;
+    right: 300px;
+}
+
+.socials__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.socials__item:last-child {
+    margin-right: 0;
+}
+
+.socials__link {
+    display: block;
+    background: center center no-repeat;
+    text-decoration: none;
+    width: 36px;
+    height: 36px;
+}
+
+.socials__item--icon--tg .socials__link {
+    background-image: url(../images/icons/socials/t.png);
+}
+.socials__item--icon--tg .socials__link:hover {
+    background-image: url(../images/icons/socials/t2.png);
+}
+
+.socials__item--icon--vk .socials__link {
+    background-image: url(../images/icons/socials/vk.png);
+}
+.socials__item--icon--vk .socials__link:hover {
+    background: url(../images/icons/socials/vk2.png);
+}
+
+.socials__item--icon--fb .socials__link {
+    background-image: url(../images/icons/socials/f.png);
+}
+.socials__item--icon--fb .socials__link:hover {
+    background-image: url(../images/icons/socials/f2.png);
+}
+
+.socials__item--icon--in .socials__link {
+    background-image: url(../images/icons/socials/in.png);
+}
+.socials__item--icon--in .socials__link:hover {
+    background-image: url(../images/icons/socials/in2.png);
+}
 
 
 /*============= ИСПРАВЛЕНИЕ СТИЛЕЙ =============*/
@@ -279,7 +421,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-    margin: 0;
+    margin-top: 0;
 }
 
 ul {
