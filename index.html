@@ -9,10 +9,10 @@
 <body>
 <div class="wrapper main-page-wrapper">
 <div class="container">
-    <div class="header">
+    <header class="header">
         <div class="logo">
             <a class="logo__link">
-                <img src="/images/Air_Asia-logo.png" alt="" class="logo__img">
+                <img src="./images/Air_Asia-logo.png" alt="" class="logo__img">
             </a>
         </div>
         <nav class="menu">
@@ -33,7 +33,7 @@
             <div class="contacts__workhours">График работы</div>
             <div class="contacts__dropdown-title"></div>
         </address>
-    </div>
+    </header>
     <main class="main">
         <div class="preview">
             <div class="preview__title">Авторские туры по Азии</div>
@@ -41,7 +41,10 @@
             <a href="#" class="preview__btn btn">Подробнее</a>
         </div>
         <section class="features">
-            <h2 class="features__title">Горящие туры</h2>
+            <div class="features__title-container">
+                <h2 class="features__title">Горящие туры</h2>
+                <img src="./images/icons/flame.png" alt="">
+            </div>
             <ul class="features__list">
                 <li class="features__item">
                     <div class="features__header">
@@ -59,9 +62,11 @@
                                 <span class="features__service-description">Завтраки</span>
                             </div>
                         </div>
-                        <div class="feature__text">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.</div>
+                        <div class="features__text">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.</div>
+                        <div class="btn__container">
+                            <a class="features__btn">Смотреть</a>
+                        </div>
                     </div>
-                    <a class="features__btn">Смотреть</a>
                 </li>
 
                 <li class="features__item">
@@ -69,28 +74,7 @@
                         <img src="./images/content/offers/pool.jpg" class="feature__header-img" alt="Icon features">
                     </div>
                     <div class="features__info">
-                        <div class="features__subtitle">Тайланд</div>
-                        <div class="features__service">
-                            <div class="features__service-item">
-                                <img src="./images/icons/offers/calendar.png" alt="" class="feature__service-icon">
-                                <span class="features__service-description">7- 12 ночей</span>
-                            </div>
-                            <div class="features__service-item">
-                                <img src="./images/icons/offers/meal.png" alt="" class="feature__service-icon">
-                                <span class="features__service-description">Завтраки</span>
-                            </div>
-                        </div>
-                        <div class="feature__text">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.</div>
-                    </div>
-                    <a class="features__btn">Смотреть</a>
-                </li>
-
-                <li class="features__item">
-                    <div class="features__header">
-                        <img src="./images/content/offers/ocean.jpg" class="feature__header-img" alt="Icon features">
-                    </div>
-                    <div class="features__info">
-                        <div class="features__subtitle">Тайланд</div>
+                        <div class="features__subtitle">Бали</div>
                         <div class="features__service">
                             <div class="features__service-item">
                                 <img src="./images/icons/offers/calendar.png" alt="" class="feature__service-icon">
@@ -102,14 +86,36 @@
                             </div>
                         </div>
                         <div class="features__text">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.</div>
+                        <a class="features__btn">Смотреть</a>
                     </div>
-                    <a class="features__btn">Смотреть</a>
+                </li>
+
+                <li class="features__item">
+                    <div class="features__header">
+                        <img src="./images/content/offers/ocean.jpg" class="feature__header-img" alt="Icon features">
+                    </div>
+                    <div class="features__info">
+                        <div class="features__subtitle">Индонезия</div>
+                        <div class="features__service">
+                            <div class="features__service-item">
+                                <img src="./images/icons/offers/calendar.png" alt="" class="feature__service-icon">
+                                <span class="features__service-description">7- 12 ночей</span>
+                            </div>
+                            <div class="features__service-item">
+                                <img src="./images/icons/offers/meal.png" alt="" class="feature__service-icon">
+                                <span class="features__service-description">Завтраки</span>
+                            </div>
+                        </div>
+                        <div class="features__text">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.</div>
+                        <a class="features__btn">Смотреть</a>
+                    </div>
                 </li>
             </ul>
             
         </section>
         <section class="news">
             <h2 class="news__title">Новости и акции</h2>
+            
             <ul class="news__list">
                 <li class="news__item">
                     <img src="./images/content/news/plain.jpg" class="news__img" alt="News images">
@@ -123,9 +129,9 @@
                 <li class="news__item">
                     <img src="./images/content/news/surfer.jpg" class="news__img" alt="News images">
                     <div class="news__content">
-                        <time class="news__text-content">декабрь 2019</time>
-                        <div class="news__subtitle">Дешевые путевки на Новый Год!</div>
-                        <div class="news__text">Проведи новый год в Тайланде</div>
+                        <time class="news__date">декабрь 2019</time>
+                        <div class="news__subtitle">Акция для серфенгистов!</div>
+                        <div class="news__text">В сезон больших волн скидка на путевку в Тайланд на остров серфенгистов. Удачного пути!</div>
                     </div>
                 </li>
             </ul>
@@ -167,7 +173,6 @@
                 </div>
                 <a class="about__btn btn">подробнее</a>
             </div>
-
         </section>
     </main>
     <footer class="footer">

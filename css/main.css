@@ -19,35 +19,35 @@ body {
 
 .container {
     margin: 0 auto;
+    margin-top: 4px;
     max-width: 1140px;
 }
 
 .header {
     position: relative;
-    height: 58px;
-    margin-bottom: 127px;
+    min-height: 58px;
+    margin-bottom: 156px;
 }
 .logo {
     position: absolute;
     top: 25px;
-    left: 0;
 }
 
 .logo__img {
-    width: 81px;
-    height: 33px;
+    width: 99px;
+    height: 40px;
 }
 
 .menu {
     position: absolute;
-    top: 29px;
-    left: 134px;
+    top: 32px;
+    left: 165px;
 }
 
 .menu__item {
     display: inline-block;
     vertical-align: middle;
-    margin-right: 33px;
+    margin-right: 53px;
     letter-spacing: -0.4px;
 }
 
@@ -72,19 +72,19 @@ body {
     position: absolute;
     font-style: normal;
     text-align: right;
-    top: 18px;
+    top: 21px;
     right: 0;
-    letter-spacing: 0.7px;
+    letter-spacing: 0.5px;
 }
 
 .contacts__phone {
     color: #fff;
-    font-size: 21px;
-    font-weight: 400;
+    font-size: 25px;
+    letter-spacing: 2.65px;
 }
 
 .contacts__workhours {
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 400;
     letter-spacing: -1.1px;
     text-decoration: underline;
@@ -97,34 +97,33 @@ body {
 }
 
 .preview {
-    width: 422px;
-    height: 300px;
-    margin-bottom: 130.5px;
+    width: 511px;
+    margin-bottom: 264.5px;
 }
 
 .preview__title {
-    font-size: 60px;
+    font-size: 71px;
     font-weight: 700;
-    line-height: 1.12;
     margin-bottom: 23px;
     letter-spacing: 0.5px;
+    line-height: 1.23;
 }
 
 .preview__subtitle {
     font-size: 18px;
-    margin-bottom: 24px;
-    letter-spacing: -1.5px;
+    margin-bottom: 50px;
 }
 
 .btn {
     color: #fff;
-    font-size: 11px;
+    font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
-    padding: 14px 31px;
+    padding: 16.5px 39px;
     background: #f5170e;
     border: 1px solid #f5170e;
     border-radius: 50px;
+    border: none;
 }
 
 .btn:hover {
@@ -132,24 +131,31 @@ body {
 }
 
 .features {
-    margin-bottom: 138px;
+    margin-bottom: 142px;
+}
+
+.features__title-container {
+    /* display: inline-block; */
 }
 
 .features__title {
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 45px;
+    display: inline-block;
+    margin-right: 4px;
 }
 
 .features__item {
     display: inline-block;
-    min-height: 100px;
+    vertical-align: top;
     background: #fff;
     border-radius: 4px;
+    overflow: hidden;
     width: 362px;
     margin-right: 22px;
-    height: 560px;
     position: relative;
+    min-height: 440px;
 }
 
 .features__item:last-child {
@@ -157,41 +163,56 @@ body {
 }
 
 .features__header {
-    min-height: 162px;
-    margin-bottom: 28px;
+    /* min-height: 162px; */
+    height: 141px;
+    /* margin-bottom: 28px; */
     overflow: hidden;
     display: block;
-    position: absolute;
-    width: 362px;
+    /* position: absolute;
+    width: 362px; */
+}
+
+.feature__header-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .features__info {
-    padding: 36px 30px;
+    padding: 23px 21px;
     color: #000;
-    margin-top: 240px;
+    font-size: 15px;
 }
 
 .features__subtitle {
     font-weight: 700;
     font-size: 24px;
-    margin-bottom: 25px;
+    margin-bottom: 12px;
     color: #000;
 }
 
 .features__service-item {
     display: inline-block;
-    vertical-align: top;
     width: 130px;
-    margin-right: 3px;
+    margin-right: 25px;
 }
+
 
 .features__service-item:last-child {
     margin-right: 0;
 }
 
+.img.feature__service-icon {
+    vertical-align: middle;   
+}
+
 .features__service-description {
     font-size: 16px;
     color: #666666;
+}
+
+.features__text {
+    margin-bottom: 40px;
 }
 
 
@@ -204,9 +225,9 @@ body {
     font-weight: 700;
     text-transform: uppercase;
     color: #f5170e;
-    position: absolute;
+    /* position: absolute;
     top: 479px;
-    left: 29px;
+    left: 29px; */
 }
 
 .features__btn:hover {
@@ -221,15 +242,26 @@ body {
 .news__title {
     font-size: 36px;
     font-weight: 700;
-    margin-bottom: 45px;
+    margin-bottom: 47px;
 }
+
+.news__list {
+    
+margin-bottom: 52px;
+}
+
 .news__item {
     display: inline-block;
     position: relative;
     width: 555px;
+    min-height: 390px;
     vertical-align: top;
     border-radius: 4px;
     overflow: hidden;
+}
+
+.news__item:first-child {
+    margin-right: 25px;
 }
 
 .news__img {
@@ -237,21 +269,22 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    position: absolute;
 }
 
 .news__content {
     position: absolute;
-    left: 0;
+    left: 1px;
     right: 0;
-    bottom: 0;
-    padding: 25px 30px;
+    bottom: -3px;
+    padding: 0px 31px;
     min-height: 140px;
 }
 
 .news__date {
     font-size: 14px;
-    margin-bottom: 18px;
-
+    margin-bottom: 11px;
+    display: block;
 }
 .news__subtitle {
     font-size: 24px;
@@ -261,11 +294,10 @@ body {
 
 .pager {
     text-align: center;
+    margin-bottom: 150px;
 }
 
-.pager__display {
-    margin-right: 25px;
-}
+.pager__display {margin-right: 30px;}
 
 .pager__item {
     display: inline-block;
@@ -294,39 +326,41 @@ body {
 }
 
 .about {
-    margin-bottom: 75px;
+    margin-bottom: 70px;
 }
 
 .about:before, .about__desc {
     display: inline-block;
     vertical-align: top;
-    border-radius: 10px;
+    border-radius: 6px;
 } 
 
 .about:before {
     content: "";
-    width: 500px;
-    height: 500px;
+    width: 489px;
+    height: 502px;
     background: url(../images/decor/gates.jpg) center center / cover no-repeat;
 }
 
 .about__desc {
     background: url(../images/decor/mountains.jpg) center center / cover no-repeat;
-    padding: 80px 98px;
+    padding: 66px 98px;
     width: 780px;
     height: 450px;
-    margin-left: -170px;
-    margin-top: 108px;
+    margin-left: -134px;
+    margin-top: 109px;
 }
 
 .about__title {
     font-size: 36px;
+    font-weight: 700;
     color: #000;
-    margin-bottom: 40px;
+    margin-bottom: 28px;
 }
 
 .about__desc-text {
     margin-bottom: 45px;
+    line-height: 1.7;
 }
 
 .about__desc-text p {
@@ -334,7 +368,7 @@ body {
 }
 
 .about__desc-text p:last-child {
-    margin-bottom: 0;
+    margin-bottom: 57px;
 }
 
 .footer-container {
@@ -347,20 +381,20 @@ body {
 }
 
 .contacts__desc {
-    font-size: 11px;
+    font-size: 10px;
     color: #9a9a9a;
 }
 
 .socials {
     position: absolute;
-    top: 20px;
-    right: 300px;
+    top: 28px;
+    right: 261px;
 }
 
 .socials__item {
     display: inline-block;
     vertical-align: middle;
-    margin-right: 10px;
+    margin-right: 7px;
 }
 
 .socials__item:last-child {
@@ -439,8 +473,4 @@ a {
 
 img {
     max-width: 100%;
-}
-
-.btn {
-    border: none;
 }
