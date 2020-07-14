@@ -1,0 +1,17 @@
+.preview {
+   width: 511px;
+   margin-bottom: 264.5px;
+}
+
+.preview__title {
+   font-size: 71px;
+   font-weight: 700;
+   margin-bottom: 23px;
+   letter-spacing: 0.5px;
+   line-height: 1.23;
+}
+
+.preview__subtitle {
+   font-size: 18px;
+   margin-bottom: 50px;
+}
