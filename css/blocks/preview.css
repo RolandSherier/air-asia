@@ -1,6 +1,17 @@
+.preview__container {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   min-height: 600px;
+}
+
 .preview {
-   width: 511px;
+   width: 600px;
    margin-bottom: 264.5px;
+}
+
+.preview__text-section {
+   width: 85%;
 }
 
 .preview__title {

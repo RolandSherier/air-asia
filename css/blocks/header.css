@@ -1,12 +1,24 @@
 .header {
-   position: relative;
-   min-height: 58px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-top: 45px;
    margin-bottom: 156px;
 }
 
+.header__col {
+   display: flex;
+   align-items: center;
+}
+
+.header__col--align--right {
+   justify-content: flex-end;
+
+}
+
 .logo {
-   position: absolute;
-   top: 25px;
+  display: block;
+  margin-right: 100px;
 }
 
 .logo__img {
@@ -15,9 +27,7 @@
 }
 
 .menu {
-   position: absolute;
-   top: 32px;
-   left: 165px;
+   
 }
 
 .menu__item {
@@ -45,11 +55,8 @@
 }
 
 .contacts {
-   position: absolute;
    font-style: normal;
    text-align: right;
-   top: 21px;
-   right: 0;
    letter-spacing: 0.5px;
 }
 

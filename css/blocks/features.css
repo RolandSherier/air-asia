@@ -10,15 +10,17 @@
    margin-right: 4px;
 }
 
+.features__list {
+   display: flex;
+   justify-content: space-between;
+}
+
 .features__item {
-   display: inline-block;
    vertical-align: top;
    background: #fff;
    border-radius: 4px;
    overflow: hidden;
-   width: 362px;
-   margin-right: 22px;
-   position: relative;
+   width: calc(100% / 3 - 18px); /*100% от родителя разделить на 3 ячейки и вычесть 18px отступа (так как 28px отступа по макету разделить 2 два промежутка)*/
    min-height: 440px;
 }
 
