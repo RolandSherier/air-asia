@@ -1,8 +1,8 @@
-.features {
-   margin-bottom: 142px;
+.offers {
+   margin-bottom: 138px;
 }
 
-.features__title {
+.offers__title {
    font-size: 36px;
    font-weight: 700;
    margin-bottom: 45px;
@@ -10,74 +10,79 @@
    margin-right: 4px;
 }
 
-.features__list {
+.offers__list {
    display: flex;
    justify-content: space-between;
 }
 
-.features__item {
+.offers__item {
    vertical-align: top;
    background: #fff;
    border-radius: 4px;
    overflow: hidden;
-   width: calc(100% / 3 - 18px); /*100% от родителя разделить на 3 ячейки и вычесть 18px отступа (так как 28px отступа по макету разделить 2 два промежутка)*/
+   width: calc(100% / 3 - 16px); /*100% от родителя разделить на 3 ячейки и вычесть 18px отступа (так как 28px отступа по макету разделить 2 два промежутка)*/
    min-height: 440px;
 }
 
-.features__item:last-child {
+.offers__item:last-child {
    margin-right: 0;
 }
 
-.features__header {
+.offers__header {
    height: 141px;
    overflow: hidden;
    display: block;
 }
 
-.feature__header-img {
+.offers__header-img {
    width: 100%;
    height: 100%;
    object-fit: cover;
 }
 
-.features__info {
+.offers__info {
    padding: 23px 21px;
    color: #000;
    font-size: 15px;
 }
 
-.features__subtitle {
+.offers__subtitle {
    font-weight: 700;
    font-size: 24px;
    margin-bottom: 12px;
    color: #000;
 }
 
-.features__service-item {
-   display: inline-block;
+.offers__service {
+   display: flex;
+   justify-content: space-between;
+}
+
+.offers__service-item {
+   /* display: inline-block; */
    width: 130px;
    margin-right: 25px;
 }
 
-.features__service-item:last-child {
+.offers__service-item:last-child {
    margin-right: 0;
 }
 
-.img.feature__service-icon {
+.img.offers__service-icon {
    vertical-align: middle;
 }
 
-.features__service-description {
+.offers__service-description {
    font-size: 16px;
    color: #666666;
 }
 
-.features__text {
+.offers__text {
    margin-bottom: 40px;
 }
 
 
-.features__btn {
+.offers__btn {
    padding: 14px 29px;
    border: 1px solid #f5170e;
    border-radius: 50px;
@@ -88,7 +93,7 @@
    color: #f5170e;
 }
 
-.features__btn:hover {
+.offers__btn:hover {
    background: #f5170e;
    color: #fff;
 }

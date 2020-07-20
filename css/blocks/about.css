@@ -1,16 +1,16 @@
 .about {
+   display: flex;
    margin-bottom: 70px;
 }
 
 .about:before,
 .about__desc {
-   display: inline-block;
-   vertical-align: top;
    border-radius: 6px;
 }
 
 .about:before {
    content: "";
+   display: block;
    width: 489px;
    height: 502px;
    background: url(../../images/decor/gates.jpg) center center / cover no-repeat;
@@ -19,10 +19,8 @@
 .about__desc {
    background: url(../../images/decor/mountains.jpg) center center / cover no-repeat;
    padding: 66px 98px;
-   width: 780px;
+   max-width: 780px;
    height: 450px;
-   margin-left: 359px;
-   margin-top: -399px;
 }
 
 .about__title {

@@ -1,9 +1,9 @@
 .header {
    display: flex;
-   justify-content: space-between;
-   align-items: center;
-   padding-top: 45px;
-   margin-bottom: 156px;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 18.5px;
+    margin-bottom: 140px;
 }
 
 .header__col {
@@ -18,7 +18,7 @@
 
 .logo {
   display: block;
-  margin-right: 100px;
+  margin-right: 66px;
 }
 
 .logo__img {

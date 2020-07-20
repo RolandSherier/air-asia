@@ -65,7 +65,9 @@ body {
    display: flex;
    flex-direction: column;
    overflow: hidden;
-   min-width: 1145px;
+   min-width: 1200px; /* + несколько пикселей 
+   для удобного скрола. Также нужно отметить 
+   данную виличину во viewport*/
    min-height: 100%;
 }
 
