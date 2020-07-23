@@ -4,17 +4,52 @@
 }
 
 .btn {
-    color: #fff;
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
-    padding: 16.5px 39px;
-    background: #f5170e;
-    border: 1px solid #f5170e;
     border-radius: 50px;
     border: none;
 }
 
-.btn:hover {
+.btn--short--white {
+    background: #fff;
+    border: 1px solid #f5170e;
+    color: #f5170e;
+}
+
+.btn--short--white {
+    padding: 16.5px 25px;
+    background: #f5170e;
+    color: #fff;
+}
+
+.btn--red--long {
+    padding: 16.5px 39px;
+    background: #f5170e;
+    border: 1px solid #f5170e;
+    color: #fff;
+}
+
+.btn--red--long:hover {
     box-shadow: 0 0 25px 0 rgba(245, 23, 14, .7);
+}
+
+.btn--black--long {
+    padding: 16.5px 39px;
+    background: #000;
+    border: 1px solid #000;
+    color: #fff;
+}
+
+.btn--black--long:hover {
+    background: #fff;
+    color: #000;
+}
+
+.form___btn {
+    margin-right: 20px;
+}
+
+.form___btn:last-child {
+    margin-right: 0;
 }
