@@ -1,0 +1,147 @@
+.top-line {
+    display: flex;
+    flex-direction: column;
+    min-height: 415px;
+    padding-bottom: 25px;
+    background: #00131d url("../../images/bg/headline.jpg") right 20% top no-repeat;
+ }
+ 
+ .top-line__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+ }
+ 
+ .page-title {Ø
+    color: #fff;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 1;
+ }
+ 
+ .bredcrumbs__list {
+    display: flex;
+    align-items: center;
+ }
+ 
+ .bredcrumbs__item {
+    display: flex;
+    align-items: center;
+ }
+ 
+ .bredcrumbs__item--active .bredcrumbs__link {
+    color: #999999;
+ }
+ 
+ .bredcrumbs__item:after {
+    content: "/";
+    color: #999999;
+ }
+ 
+ .bredcrumbs__item:last-child:after {
+    display: none;
+ }
+ 
+ .bredcrumbs__link {
+    color: #1c2c34;
+    font-size: 14px;
+ }
+
+ .service {
+    margin-bottom: 65px;
+ }
+
+ .page-content {
+   background: #fff;
+   color: #303030;
+   /* padding: 40px 0; */
+ }
+ .service__container {
+    margin-top: 0;
+ }
+
+
+
+ .service {
+   display: flex;
+   padding: 58px 43px;
+   text-decoration: none;
+ }
+
+ .service:hover {
+    background: #f4f5f5;
+ }
+
+ .service:hover .service__btn { /* стилизовать */
+   background: #f5170e;
+ }
+
+ .service__img {
+   width: 30%;
+   margin-right: 7%;
+ }
+
+ .service__content {
+    flex: 1;
+ }
+
+ .service__title {
+   color: #000;
+   font-size: 36px;
+   font-weight: 700;
+   margin-bottom: 40px;
+ }
+ 
+ .service__desc {
+    line-height: 1.7;
+    margin-bottom: 30px;
+ }
+
+ .inner-section {
+   background: #fff;
+   color: #1a1b1e;
+   padding: 95px 0;
+ }
+
+ .inner-section--bg--gray {
+   background: #f4f5f5;
+ }
+ 
+ .inner-section__title {
+   font-size: 48px;
+   font-weight: 700;
+   margin-bottom: 75px;
+ }
+
+ .partners {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.partners__item {
+   margin-left: 46px;
+}
+
+/*Убираем отступ через 4 элемента (4n + 1 элемент)*/
+.partners__item:nth-child(4n + 1) {
+   margin-left: 0;
+}
+
+ .partners__link {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 250px;
+   height: 100px;
+   text-decoration: none;
+   filter: grayscale(100%); /*Добавляем серый фитр*/
+ }
+
+ .partners__link:hover {
+   filter: grayscale(0%);}
+
+   
+
+
+ 

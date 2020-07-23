@@ -1,9 +1,15 @@
+/* INDEX */
+
 .header {
    display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 18.5px;
     margin-bottom: 140px;
+}
+
+.header__services {
+   margin-bottom: 0;
 }
 
 .header__col {

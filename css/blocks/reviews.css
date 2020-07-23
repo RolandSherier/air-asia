@@ -1,0 +1,138 @@
+.reviews {
+   column-count: 2; /*Сколько колонок должно быть*/
+   column-gap: 30px; /*Расстояние между колонок*/
+   margin-bottom: 70px;
+}
+
+.reviews__item {
+   margin-bottom: 20px;
+   background: #f4f5f5;
+}
+
+.review {
+   display: inline-flex;
+   flex-direction: column;
+   padding: 50px 30px;
+   border-radius: 4px;
+}
+
+.review__header {
+   display: flex;
+   align-items: center;
+   margin-bottom: 30px;
+}
+
+.avatar {
+   width: 140px;
+   height: 140px;
+   overflow: hidden;
+   border-radius: 50%;
+}
+
+.reviews__user {
+   display: flex;
+   align-items: center;
+   font-size: 24px;
+   font-weight: 700;
+   color: #2e77a4;
+   margin-bottom: 11px;
+}
+
+.reviews__user::after {
+   content: url(../../images/icons/socials/vk-blue.png);
+   height: 29px;
+}
+
+.review__tags {
+   display: flex;
+   align-items: flex-start; /*Если будет несколько тегов, то они будут выравниваться относительно друг другу*/
+}
+
+.tag {
+   font-size: 13px;
+   padding: 8px 16px;
+   border-radius: 50px;
+   background: #e7e7e7;
+}
+
+.tag--bg--green {
+   background: #b9eae4;
+}
+
+.review__title {
+   font-size: 30px;
+   font-weight: 700;
+   color: #1a1b1e;
+   margin-bottom: 23px;
+}
+
+.review__content-text {
+   margin-bottom: 50px;
+}
+
+.review__date {
+   font-size: 14px;
+   font-weight: 700;
+   color: #1a1b1e;
+}
+
+.separator {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   background: #f0ac9b url(../../images//bg/middleline.jpg) right 20% bottom no-repeat;
+   min-height: 360px;
+   color: #202123;
+}
+
+.separator__content {
+   max-width: 46%;
+}
+
+.separator__title {
+   font-size: 48px;
+   font-weight: 700;
+   line-height: 1.1;
+   color: #fff;
+}
+
+.form__row {
+   display: flex;
+   margin-bottom: 30px;
+}
+
+.form__input {
+   flex: 1;
+   margin-right: 30px;
+   border-radius: 4px;
+   border: none;
+   background: #fff;
+   padding: 22px 30px;
+   font-size: 18px;
+   color: #1a1b1e;
+}
+
+.form__input::placeholder {
+   color: #666;
+}
+
+.form__input:last-child {
+   margin-right: 0;
+}
+
+.form__input--textarea {
+   height: 232px;
+}
+
+.controls__elem {
+   cursor: pointer;
+}
+
+/* При состоянии checked цвет блока окрашивается. */
+.controls__checkbox:checked ~ .controls__tag {
+   background: #c7e9d0;
+}
+
+.controls__checkbox {
+   display: none;
+}
