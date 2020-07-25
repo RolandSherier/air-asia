@@ -68,6 +68,7 @@
 }
 
 .contacts__phone {
+   display: block;
    color: #fff;
    font-size: 25px;
    letter-spacing: 2.65px;
@@ -75,6 +76,7 @@
 
 .dropdown {
    position: relative;
+   display: inline-block;
 }
 
 .dropdown__title {
@@ -98,7 +100,7 @@
    font-size: 13px;
 }
 
-.dropdown__title:hover .dropdown__menu {
+.dropdown:hover .dropdown__menu {
    display: block;
 }
 
@@ -110,9 +112,8 @@
    width: 0;
    height: 0;
    border-bottom-color: #fff;
-   bottom: 100%;
-   left: 130px;
-   top: 10px;
+   bottom: 99%;
+   right: 50px;
 }
 
 .dropdown__menu-text--bold {

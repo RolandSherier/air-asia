@@ -77,6 +77,7 @@
     background: #000;
     border: 1px solid #000;
     color: #fff;
+    margin-right: 20px;
 }
 
 .btn--black--long:hover {

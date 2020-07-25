@@ -13,12 +13,17 @@
    flex-direction: column;
    padding: 50px 30px;
    border-radius: 4px;
+   margin-bottom: 20px;
 }
 
 .review__header {
    display: flex;
    align-items: center;
    margin-bottom: 30px;
+}
+
+.review__photo {
+   margin-right: 20px;
 }
 
 .avatar {
@@ -76,6 +81,7 @@
 }
 
 .separator {
+   position: relative;
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -84,13 +90,19 @@
    color: #202123;
 }
 
-.separator__content {
-   max-width: 46%;
+.separator:before {
+   content: "";
+   display: block;
+   position: absolute;
+   bottom: 0;
+   right: 260px;
+   width: 487px;
+   height: 341px;
+   background: url(../../images/decor/couple.png) center center no-repeat;
 }
 
-.separator__content::before {
-   background: url(../../images/decor/couple.png) right 20% bottom no-repeat;
-   
+.separator__content {
+   max-width: 46%;
 }
 
 .separator__title {
