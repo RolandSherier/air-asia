@@ -1,19 +1,19 @@
-.footer {
+.footer-container__section {
+   border-top: 1px solid #1a3038;
+   padding: 20px 0;
+}
+
+.footer-container__content {
    display: flex;
    justify-content: space-between;
    position: relative;
    align-items: center;
 }
 
-.footer-container__content {
-   border-top: 1px solid #1a3038;
+.menu__list {
+   display: flex;
+   align-items: center;
 }
-
-.footer-container__section {
-   height: 100px;
-   margin-top: 12px;
-}
-
 
 .inner-footer {
    margin-top: auto;

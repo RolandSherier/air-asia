@@ -1,11 +1,10 @@
 .reviews {
    column-count: 2; /*Сколько колонок должно быть*/
    column-gap: 30px; /*Расстояние между колонок*/
-   margin-bottom: 70px;
+   margin-bottom: -20px;
 }
 
 .reviews__item {
-   margin-bottom: 20px;
    background: #f4f5f5;
 }
 
@@ -89,6 +88,11 @@
    max-width: 46%;
 }
 
+.separator__content::before {
+   background: url(../../images/decor/couple.png) right 20% bottom no-repeat;
+   
+}
+
 .separator__title {
    font-size: 48px;
    font-weight: 700;
@@ -138,6 +142,8 @@
    flex: 1;
    display: flex;
    flex-wrap: wrap;
+   margin-bottom: -10px;
+   margin-right: -10px;
 }
 
 .controls__item {

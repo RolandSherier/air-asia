@@ -43,10 +43,10 @@
 
 .single-news__content {
    position: absolute;
-   left: 1px;
+   left: 0;
    right: 0;
    bottom: -3px;
-   padding: 0px 31px;
+   padding: 0px 32px;
    min-height: 140px;
 }
 

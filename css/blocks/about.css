@@ -13,6 +13,7 @@
    display: block;
    width: 489px;
    height: 502px;
+   flex-shrink: 0;
    background: url(../../images/decor/gates.jpg) center center / cover no-repeat;
 }
 
@@ -21,6 +22,8 @@
    padding: 66px 98px;
    max-width: 780px;
    height: 450px;
+   margin-top: 107px;
+   margin-left: -129px;
 }
 
 .about__title {

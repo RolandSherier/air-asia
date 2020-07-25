@@ -31,7 +31,8 @@
  }
  
  .bredcrumbs__item--active .bredcrumbs__link {
-    color: #999999;
+    color: #9a9a9a;
+    text-decoration: underline;
  }
  
  .bredcrumbs__item:after {
@@ -44,7 +45,7 @@
  }
  
  .bredcrumbs__link {
-    color: #1c2c34;
+    color: #9a9a9a;
     font-size: 14px;
  }
 
@@ -55,7 +56,7 @@
  .page-content {
    background: #fff;
    color: #303030;
-   /* padding: 40px 0; */
+   padding: 40px 0;
  }
  .service__container {
     margin-top: 0;

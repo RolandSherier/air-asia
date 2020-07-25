@@ -37,8 +37,13 @@
                 <div class="header__col header__col--align--right">
                     <address class="contacts">
                         <a href="tel:+78007003030" class="contacts__phone">8 800 700 3030</a>
-                        <div class="contacts__workhours">График работы</div>
-                        <div class="contacts__dropdown-title"></div>
+                        <div class="dropdown">
+                            <a href="#" class="dropdown__title">График работы</a>
+                            <div class="dropdown__menu">
+                                <div class="dropdown__menu-text dropdown__menu-text--bold">пн-вс: 09:00 - 20:00</div>
+                                <div class="dropdown__menu-text">Обед: 14:00-14:30</div>
+                            </div>
+                        </div>
                     </address>
                 </div>
             </header>
@@ -47,14 +52,14 @@
                     <div class="preview__text-section">
                         <h1 class="preview__title">Авторские туры по Азии</h1>
                         <div class="preview__subtitle">Открой для себя Азию</div>
-                        <a href="#" class="preview__btn btn">Подробнее</a>
+                        <a href="#" class="btn--long--red btn">Подробнее</a>
                     </div>
                 </section>
                 <section class="offers">
                     <div class="container">
                         <div class="offers__title-container">
                             <h2 class="offers__title">Горящие туры</h2>
-                            <img src="./images/icons/flame.png" alt="Flame icon">
+                            <img src="./images/icons/flame.png" class="offers__title-icon" alt="Flame icon">
                         </div>
                         <ul class="offers__list">
                             <li class="offers__item">
@@ -78,15 +83,16 @@
                                     </div>
                                     <div class="offers__text">Равным образом постоянное обеспечение нашей
                                         деятельности
-                                        позволяет оценить значение систем массового участия.</div>
+                                        позволяет оценить значение систем массового участия.
+                                    </div>
                                     <div class="btn__container">
-                                        <a class="offers__btn">Смотреть</a>
+                                        <a href="#" class="btn--short--white btn">Смотреть</a>
                                     </div>
                                 </div>
                             </li>
                             <li class="offers__item">
                                 <div class="offers__header">
-                                    <img src="./images/content/offers/pool.jpg" class="feature__header-img"
+                                    <img src="./images/content/offers/pool.jpg" class="offers__header-img"
                                         alt="Icon offers">
                                 </div>
                                 <div class="offers__info">
@@ -94,7 +100,7 @@
                                     <div class="offers__service">
                                         <div class="offers__service-item">
                                             <img src="./images/icons/offers/calendar.png" alt=""
-                                                class="feature__service-icon">
+                                                class="offers__service-icon">
                                             <span class="offers__service-description">7- 12 ночей</span>
                                         </div>
                                         <div class="offers__service-item">
@@ -105,13 +111,16 @@
                                     </div>
                                     <div class="offers__text">Равным образом постоянное обеспечение нашей
                                         деятельности
-                                        позволяет оценить значение систем массового участия.</div>
-                                    <a class="offers__btn">Смотреть</a>
+                                        позволяет оценить значение систем массового участия.
+                                    </div>
+                                    <div class="btn__container">
+                                        <a href="#" class="btn--short--white btn">Смотреть</a>
+                                    </div>
                                 </div>
                             </li>
                             <li class="offers__item">
                                 <div class="offers__header">
-                                    <img src="./images/content/offers/ocean.jpg" class="feature__header-img"
+                                    <img src="./images/content/offers/ocean.jpg" class="offers__header-img"
                                         alt="Icon offers">
                                 </div>
                                 <div class="offers__info">
@@ -130,8 +139,11 @@
                                     </div>
                                     <div class="offers__text">Равным образом постоянное обеспечение нашей
                                         деятельности
-                                        позволяет оценить значение систем массового участия.</div>
-                                    <a class="offers__btn">Смотреть</a>
+                                        позволяет оценить значение систем массового участия.
+                                    </div>
+                                    <div class="btn__container">
+                                        <a href="#" class="btn--short--white btn">Смотреть</a>
+                                    </div>
                                 </div>
                             </li>
                         </ul>
@@ -202,53 +214,51 @@
                                 использовали небезизвестный универсальный код речей
                             </p>
                         </div>
-                        <a class="about__btn btn">подробнее</a>
+                        <a class="btn--long--red btn">подробнее</a>
                     </div>
                 </section>
             </main>
             <footer class="footer footer-container__section">
                 <div class="footer-container__content">
-                    <div class="footer-container__section">
-                        <div class="footer__col">
-                            <div class="logo">
-                                <a class="logo__link">
-                                    <img src="./images/Air_Asia-logo.png" alt="" class="logo__img">
-                                </a>
-                            </div>
-                            <nav class="menu">
-                                <ul class="menu__list">
-                                    <li class="menu__item">
-                                        <a href="index.html" class="menu__link">Главная</a>
-                                    </li>
-                                    <li class="menu__item">
-                                        <a href="services.html" class="menu__link">Услуги</a>
-                                    </li>
-                                    <li class="menu__item">
-                                        <a href="reviews.html" class="menu__link">Отзывы</a>
-                                    </li>
-                                </ul>
-                            </nav>
+                    <div class="footer__col">
+                        <div class="logo">
+                            <a class="logo__link">
+                                <img src="./images/Air_Asia-logo.png" alt="" class="logo__img">
+                            </a>
                         </div>
-                        <div class="footer__col footer__col--align--right">
-                            <ul class="socials">
-                                <li class="socials__item socials__item--icon--tg">
-                                    <a href="" class="socials__link"></a>
+                        <nav class="menu">
+                            <ul class="menu__list">
+                                <li class="menu__item">
+                                    <a href="index.html" class="menu__link">Главная</a>
                                 </li>
-                                <li class="socials__item socials__item--icon--vk">
-                                    <a href="" class="socials__link"></a>
+                                <li class="menu__item">
+                                    <a href="services.html" class="menu__link">Услуги</a>
                                 </li>
-                                <li class="socials__item socials__item--icon--fb">
-                                    <a href="" class="socials__link"></a>
-                                </li>
-                                <li class="socials__item socials__item--icon--in">
-                                    <a href="" class="socials__link"></a>
+                                <li class="menu__item">
+                                    <a href="reviews.html" class="menu__link">Отзывы</a>
                                 </li>
                             </ul>
-                            <address class="contacts">
-                                <div class="contacts__desc">Бесплатный звонок по России</div>
-                                <a href="tel:+78007003030" class="contacts__phone">88007003030</a>
-                            </address>
-                        </div>
+                        </nav>
+                    </div>
+                    <div class="footer__col footer__col--align--right">
+                        <ul class="socials">
+                            <li class="socials__item socials__item--icon--tg">
+                                <a href="" class="socials__link"></a>
+                            </li>
+                            <li class="socials__item socials__item--icon--vk">
+                                <a href="" class="socials__link"></a>
+                            </li>
+                            <li class="socials__item socials__item--icon--fb">
+                                <a href="" class="socials__link"></a>
+                            </li>
+                            <li class="socials__item socials__item--icon--in">
+                                <a href="" class="socials__link"></a>
+                            </li>
+                        </ul>
+                        <address class="contacts">
+                            <div class="contacts__desc">Бесплатный звонок по России</div>
+                            <a href="tel:+78007003030" class="contacts__phone">88007003030</a>
+                        </address>
                     </div>
                 </div>
             </footer>

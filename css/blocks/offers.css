@@ -2,12 +2,20 @@
    margin-bottom: 138px;
 }
 
+.offers__title-container {
+   display: flex;
+   align-items: center;
+   margin-bottom: 45px;
+}
+
 .offers__title {
    font-size: 36px;
    font-weight: 700;
-   margin-bottom: 45px;
-   display: inline-block;
    margin-right: 4px;
+}
+
+.offers__title-icon {
+   
 }
 
 .offers__list {
@@ -56,9 +64,12 @@
 .offers__service {
    display: flex;
    justify-content: space-between;
+   margin-bottom: 30px;
 }
 
 .offers__service-item {
+   display: flex;
+   align-items: center;
    width: 130px;
    margin-right: 25px;
 }
@@ -67,8 +78,8 @@
    margin-right: 0;
 }
 
-.img.offers__service-icon {
-   vertical-align: middle;
+.offers__service-icon {
+   margin-right: 7px;
 }
 
 .offers__service-description {
@@ -77,22 +88,5 @@
 }
 
 .offers__text {
-   margin-bottom: 40px;
-}
-
-
-.offers__btn {
-   padding: 14px 29px;
-   border: 1px solid #f5170e;
-   border-radius: 50px;
-   background: #fff;
-   font-size: 14px;
-   font-weight: 700;
-   text-transform: uppercase;
-   color: #f5170e;
-}
-
-.offers__btn:hover {
-   background: #f5170e;
-   color: #fff;
+   margin-bottom: 27px;
 }

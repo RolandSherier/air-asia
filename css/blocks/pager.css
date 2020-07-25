@@ -2,15 +2,11 @@
    display: flex;
    justify-content: center;
    align-items: center;
-   margin-bottom: 25px;
 }
 
-
-
- .pager--theme--light .pager--theme--light--active .pager__link {
-   /* color: #000;
-   background: #f5170e; */
- }
+.pager.pager--theme--light {
+   margin-top: 70px;
+}
 
  .pager--theme--light .pager__link{
    color: #000;
