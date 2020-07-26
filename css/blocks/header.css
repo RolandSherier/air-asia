@@ -64,14 +64,14 @@
 .contacts {
    font-style: normal;
    text-align: right;
-   letter-spacing: 0.5px;
 }
 
 .contacts__phone {
    display: block;
    color: #fff;
    font-size: 25px;
-   letter-spacing: 2.65px;
+   font-weight: 400;
+   letter-spacing: 0.7px;
 }
 
 .dropdown {

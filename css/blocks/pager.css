@@ -8,6 +8,13 @@
    margin-top: 70px;
 }
 
+.pager--theme--dark .pager__link {
+   color: #fff;
+}
+.pager--theme--dark .pager__link:hover {
+   background: #f5170e;
+}
+
  .pager--theme--light .pager__link{
    color: #000;
  }
@@ -28,6 +35,7 @@
 
 .pager__item {
    text-align: center;
+   margin-right: 3px;
 }
 
 .pager__link {
