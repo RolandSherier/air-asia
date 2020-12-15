@@ -1,7 +1,7 @@
 .top-line {
     display: flex;
     flex-direction: column;
-    min-height: 415px;
+    min-height: 412px;
     padding-bottom: 25px;
     background: #00131d url("../../images/bg/headline.jpg") right 20% top no-repeat;
  }
